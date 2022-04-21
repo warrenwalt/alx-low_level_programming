@@ -9,7 +9,7 @@ int main(void)
 	int total;
 
 	srand(time(0));
-	for (count = 0; total = 2772; total > 122; count++)
+	for (count = 0, total = 2772; total > 122; count++)
 	{
 		rand_passwd = (rand() % 125) + 1;
 		printf("%c", rand_passwd);
