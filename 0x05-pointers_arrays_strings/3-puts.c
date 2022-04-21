@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _puts - prints a string followed by a new line
- * @str - value to be evaluated
+ * @str: value to be evaluated
  * Return: not
  */
 void _puts(char *str)
