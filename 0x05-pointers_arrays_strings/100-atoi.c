@@ -5,7 +5,7 @@
  * Return: 0 (Success)
  */
 
-int _atoi(char *)
+int _atoi(char *s)
 {
 	int i;
 	int z, p;
