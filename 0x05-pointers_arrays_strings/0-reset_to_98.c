@@ -5,7 +5,9 @@
  *
  * Return: A;ways 0
  */
-void reset_to_98(int* n);
+void reset_to_98(int* n){
+	*n = 98;
+}
 int main(void){
 	int n;
 	n = 402;
@@ -13,7 +15,4 @@ int main(void){
 	reset_to_98(&n);
 	printf("n=%d\n", n);
 	return (0);
-}
-reset_to_98(int* n){
-	*n = 98;
 }
