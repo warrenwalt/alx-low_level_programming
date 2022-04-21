@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _srtrlen - returns the lenght of a string
